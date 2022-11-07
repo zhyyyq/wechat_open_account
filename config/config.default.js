@@ -22,7 +22,12 @@ module.exports = appInfo => {
   const userConfig = {
     // myAppName: 'egg',
   };
-
+  config.middleware = [ 'wechat' ];
+  config.wechat = {
+    token: 'zhouyongqi',
+    appid: 'wxe523af490c2c6420',
+    EncodingAESKey: 'ocFf6tlS7Zs56og5jBjZ6uHleM7eobv4YpDiDH0mcrY',
+  };
   return {
     ...config,
     ...userConfig,
