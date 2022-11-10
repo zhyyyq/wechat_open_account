@@ -22,7 +22,7 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-wechat_open_account",
+    "start": "egg-scripts start --title=egg-server-wechat_open_account",
     "build": "./build.sh",
     "stop": "egg-scripts stop --title=egg-server-wechat_open_account",
     "dev": "egg-bin dev",
